@@ -1,0 +1,387 @@
+{
+  "bots": [],
+  "useCSGO": false,
+
+  "servers":{
+  },
+
+   "prices":{
+      "steamanalyst":"",
+      "steamlytics":"",
+      "markup": 1,
+      "discounts": [],
+      "markups": [{
+        "minimum": 0,
+        "markup": 1.20
+      },
+      {
+        "minimum": 0.5,
+        "markup": 1.12
+      },
+      {
+        "minimum": 1,
+        "markup": 1.10
+      }, {
+        "minimum": 5,
+        "markup": 1.10
+      },
+      {
+        "minimum": 20,
+        "markup": 1.10
+      }, {
+        "minimum": 50,
+        "markup": 1.10
+      }, {
+        "minimum": 100,
+        "markup": 1.10
+      }, {
+        "minimum": 200,
+        "markup": 1.10
+      }, {
+        "minimum": 400,
+        "markup": 1.10
+      }]
+   },
+
+   "database": {
+     "db": "sknexchange",
+     "silent": true,
+     "servers": [{
+       "host": "127.0.0.1",
+       "port": 28015
+     }]
+   },
+
+   "redis": {
+     "host": "127.0.0.1",
+     "port": 6379
+   },
+
+   "bitskins":{
+      "apiKey":"",
+      "secret":""
+   },
+   "opskins": {
+     "apiKeys": []
+   },
+   "whitelist":[
+      "127.0.0.1"
+   ],
+   "twilio":false,
+   "security":{
+      "verifyTrades":false,
+      "verifyTradeMinimum":100000
+   },
+   "minimumDeposit":0.5,
+   "tokenMultiplier":1000,
+   "maxDepositItems":50,
+   "block":{
+
+   },
+   "blockedItems":[
+
+   ],
+
+   "items": {
+     "Gut Knife | Gamma Doppler (Factory New)": {
+       "icon": "http://community.edgecast.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf1ObcTjxP09u3mY2KqPP7I6vdk3lu-M1wmeySyoD8j1yglB89IT6mOtLAcwM4Zg6GrlDtxr_m1JC6u8vNyXNlv3MntyzVyUC_1E1IZ-FvgaGACQLJ2-b9cC4/360fx360f"
+     }
+   },
+
+   "extraItems":[
+      {
+         "paint": 417,
+         "name":"★ Bayonet | Doppler Black Pearl (Factory New)",
+         "image":"https://i.imgur.com/U34ffvx.png",
+         "price":804,
+         "nameColor":"D2D2D2",
+         "qualityColor":"EB4B4B",
+         "opskins": {
+           "name": "★ Bayonet | Doppler (Factory New)",
+           "options": {
+             "phase": "db"
+           }
+         }
+      },
+      {
+         "paint": 417,
+         "name":"★ Gut Knife | Doppler Black Pearl (Factory New)",
+         "image":"https://i.imgur.com/gi94t2Q.png",
+         "price":230,
+         "nameColor":"D2D2D2",
+         "qualityColor":"EB4B4B",
+         "opskins": {
+           "name": "★ Gut Knife | Doppler (Factory New)",
+           "options": {
+             "phase": "db"
+           }
+         }
+      },
+      {
+        "paint": 417,
+         "name":"★ Karambit | Doppler Black Pearl (Factory New)",
+         "image":"https://i.imgur.com/GUeStJs.png",
+         "price":1310,
+         "nameColor":"D2D2D2",
+         "qualityColor":"EB4B4B",
+         "opskins": {
+           "name": "★ Karambit | Doppler (Factory New)",
+           "options": {
+             "phase": "db"
+           }
+         }
+      },
+      {
+         "paint": 417,
+         "name":"★ M9 Bayonet | Doppler Black Pearl (Factory New)",
+         "image":"https://i.imgur.com/V4vhm97.png",
+         "price":1190,
+         "nameColor":"D2D2D2",
+         "qualityColor":"EB4B4B",
+         "opskins": {
+           "name": "★ M9 Bayonet | Doppler (Factory New)",
+           "options": {
+             "phase": "db"
+           }
+         }
+      },
+      {
+         "paint": 568,
+         "name":"★ Gut Knife | Gamma Doppler Emerald (Factory New)",
+         "image":"https://i.imgur.com/cQ1GPSU.png",
+         "price":419,
+         "nameColor":"D2D2D2",
+         "qualityColor":"EB4B4B",
+         "opskins": {
+           "name": "★ Gut Knife | Gamma Doppler (Factory New)",
+           "options": {
+             "phase": "ge"
+           }
+         }
+      },
+      {
+         "paint": 568,
+         "name":"★ M9 Bayonet | Gamma Doppler Emerald (Factory New)",
+         "image":"https://steamcommunity-a.opskins.media/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-KmsjxPr7Dl2dV18hwmOvN8IXvjVCLpxo7Oy3tIdLEdgdqNAmBqFa_kO3mh8K9uJqbyiMy7HIn5H3VzUPl1B0dO7M7hOveFwvYitsMFw",
+         "price":3180,
+         "nameColor":"D2D2D2",
+         "qualityColor":"EB4B4B",
+         "opskins": {
+           "name": "★ M9 Bayonet | Gamma Doppler (Factory New)",
+           "options": {
+             "phase": "ge"
+           }
+         }
+      },
+      {
+         "paint": 568,
+         "name":"★ Karambit | Gamma Doppler Emerald (Factory New)",
+         "image":"https://i.imgur.com/HA3cbzo.png",
+         "price":3300,
+         "nameColor":"D2D2D2",
+         "qualityColor":"EB4B4B",
+         "opskins": {
+           "name": "★ Karambit | Gamma Doppler (Factory New)",
+           "options": {
+             "phase": "ge"
+           }
+         }
+      },
+      {
+         "paint": 568,
+         "name":"★ Flip Knife | Gamma Doppler Emerald (Factory New)",
+         "image":"https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf1f_BYQJD4eOzmYWZlvvwDLbQhGld7cxrj-3--YXygED6-UBlZWGiIICVdQBoZFHR-Fftk7y8hsTotZjAmiFhuil2ti6ImkCwhQYMMLJIJJ_2Qw",
+         "price":950,
+         "nameColor":"D2D2D2",
+         "qualityColor":"EB4B4B",
+         "opskins": {
+           "name": "★ Flip Knife | Gamma Doppler (Factory New)",
+           "options": {
+             "phase": "ge"
+           }
+         }
+      },
+      {
+         "paint": 568,
+         "name":"★ Bayonet | Gamma Doppler Emerald (Factory New)",
+         "image":"https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLu8JAllx8zJfAJH4dmklYyPqPr1Ibndk2JL7cFOhuDG_Zi72VDh8kduZW37JIeWJ1Q9Yl2G8gToxrrmhpfvtZ6YynI1siRw7HbVmwv330-du9HHOA",
+         "price":1724,
+         "nameColor":"D2D2D2",
+         "qualityColor":"EB4B4B",
+         "opskins": {
+           "name": "★ Bayonet | Gamma Doppler (Factory New)",
+           "options": {
+             "phase": "ge"
+           }
+         }
+      },
+      {
+         "paint": 415,
+         "name":"★ Bayonet | Doppler Ruby (Factory New)",
+         "image":"https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLu8JAllx8zJfAJQ-d6vq42KhfX4NrLLk29u5Mx2gv2P9o6njA3mrxVrNm2iItXAdAY7ZFuEq1e2wri-gsTousjBn3Nqs3Fw5GGdwUIbpPL9uQ",
+         "price":1205,
+         "nameColor":"D2D2D2",
+         "qualityColor":"EB4B4B",
+         "opskins": {
+           "name": "★ Bayonet | Doppler (Factory New)",
+           "options": {
+             "phase": "dr"
+           }
+         }
+      },
+      {
+         "paint": 415,
+         "name":"★ Karambit | Doppler Ruby (Factory New)",
+         "image":"https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf2PLacDBA5ciJlY20heL2KoTcl3lT5MB4kOzFyoD8j1yg5UNkaz_xIdfEd1A5aQ3U-lPskunphJHptZvPwSM26CUht3_UmUe3gEpSLrs4ZlidBgY",
+         "price":2164,
+         "nameColor":"D2D2D2",
+         "qualityColor":"EB4B4B",
+         "opskins": {
+           "name": "★ Karambit | Doppler (Factory New)",
+           "options": {
+             "phase": "dr"
+           }
+         }
+      },
+      {
+         "paint": 415,
+         "name":"★ Flip Knife | Doppler Ruby (Factory New)",
+         "image":"https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf1f_BYQJD4eOkgYKSqPr1Ibndk2JL7cFOhuDG_Zi7jgLtqkVpZjrwJNKSdVVrMl7U_gLvw72-0Ze5u56bnXJgsyBws3bblgv33087zklSXg",
+         "price":791,
+         "nameColor":"D2D2D2",
+         "qualityColor":"EB4B4B",
+         "opskins": {
+           "name": "★ Flip Knife | Doppler (Factory New)",
+           "options": {
+             "phase": "dr"
+           }
+         }
+      },
+      {
+         "paint": 415,
+         "name":"★ M9 Bayonet | Doppler Ruby (Factory New)",
+         "image":"https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-KmsjmJrnIqWZQ-sd9j-Db8IjKhF2zowdyYzjyLIGSIAA8YguCqVK9lOa-1JW5vprBz3EyviB07SveyhfkhklNP_sv26JLM0iiyQ",
+         "price":2015,
+         "nameColor":"D2D2D2",
+         "qualityColor":"EB4B4B",
+         "opskins": {
+           "name": "★ M9 Bayonet | Doppler (Factory New)",
+           "options": {
+             "phase": "dr"
+           }
+         }
+      },
+      {
+         "paint": 415,
+         "name":"★ Gut Knife | Doppler Ruby (Factory New)",
+         "image":"https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf1ObcTjxP086jlpm0mvbmMbfUn3FU7Pp9g-7J4cKm2QHiqkY6ZGD1LIfEJlA6MFqG8lG7lLy70ce7vcufzCBis3EksSregVXp1kbC88_z",
+         "price":314,
+         "nameColor":"D2D2D2",
+         "qualityColor":"EB4B4B",
+         "opskins": {
+           "name": "★ Gut Knife | Doppler (Factory New)",
+           "options": {
+             "phase": "dr"
+           }
+         }
+      },
+      {
+         "paint": 415,
+         "name":"★ Butterfly Knife | Doppler Ruby (Factory New)",
+         "image":"https://steamimages.opskins.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf0ebcZThQ6tCvq4GGqOXhMaLum2pD6sl0g_PE8bP5gVO8v11kYjjzJ9KcIFI5YliDqAXoxbrsgpC9up_BmCM17nYh4SndzRLl1xwdcKUx0pRZROip/512fx512f",
+         "price":2300,
+         "nameColor":"D2D2D2",
+         "qualityColor":"EB4B4B",
+         "opskins": {
+           "name": "★ Butterfly Knife | Doppler (Factory New)",
+           "options": {
+             "phase": "dr"
+           }
+         }
+      },
+      {
+         "paint": 416,
+         "name":"★ Butterfly Knife | Doppler Sapphire (Factory New)",
+         "image":"https://i.imgur.com/Hz6ekQx.png",
+         "price":2300,
+         "nameColor":"D2D2D2",
+         "qualityColor":"EB4B4B",
+         "opskins": {
+           "name": "★ Butterfly Knife | Doppler (Factory New)",
+           "options": {
+             "phase": "ds"
+           }
+         }
+      },
+      {
+         "paint": 416,
+         "name":"★ Bayonet | Doppler Sapphire (Factory New)",
+         "image":"https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotLu8JAllx8zJfAJR7cymnImZksj5MqnTmm5Y8sB1teXI8oThxlHtrkNoMWyhItDDcFJoaFjW_Vm7yL2-18W6uc6ayHcwuCQntH-Om0SpwUYb_FLG0qs",
+         "price":1390,
+         "nameColor":"D2D2D2",
+         "qualityColor":"EB4B4B",
+         "opskins": {
+           "name": "★ Bayonet | Doppler (Factory New)",
+           "options": {
+             "phase": "ds"
+           }
+         }
+      },
+      {
+         "paint": 416,
+         "name":"★ Gut Knife | Doppler Sapphire (Factory New)",
+         "image":"https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf1ObcTjxP08-3hJCDnuXxDLbQhGld7cxrj-3--YXygED6_BVlZDv3IYLGJAE2aQvX_wW5xLzrhsDqvp7Pynpkv3Ui7XnUzhHmhAYMMLIU9_4nhg",
+         "price":350,
+         "nameColor":"D2D2D2",
+         "qualityColor":"EB4B4B",
+         "opskins": {
+           "name": "★ Gut Knife | Doppler (Factory New)",
+           "options": {
+             "phase": "ds"
+           }
+         }
+      },
+      {
+         "paint": 416,
+         "name":"★ Flip Knife | Doppler Sapphire (Factory New)",
+         "image":"https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf1f_BYQJD4eOllZCbn_7mNoTcl3lT5MB4kOzFyoD8j1yg5UBuazj3cYKQJwA5ZwnVrla_yLi5hcPp6szPwHZqvnVx5n_Vyhzjgh1SLrs4EHv5ZcQ",
+         "price":850,
+         "nameColor":"D2D2D2",
+         "qualityColor":"EB4B4B",
+         "opskins": {
+           "name": "★ Flip Knife | Doppler (Factory New)",
+           "options": {
+             "phase": "ds"
+           }
+         }
+      },
+      {
+         "paint": 416,
+         "name":"★ Karambit | Doppler Sapphire (Factory New)",
+         "image":"https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf2PLacDBA5ciJlY20hPbkI7PYhG5u5cRjiOXE_JbwjGu4ohQ0J3egI4ORcQNqYw3W8la5w-frgJK77ZXKwCQysyVwtnbayxKzhxlIarRum7XAHvqFh2jA",
+         "price":2510,
+         "nameColor":"D2D2D2",
+         "qualityColor":"EB4B4B",
+         "opskins": {
+           "name": "★ Karambit | Doppler (Factory New)",
+           "options": {
+             "phase": "ds"
+           }
+         }
+      },
+      {
+         "paint": 416,
+         "name":"★ M9 Bayonet | Doppler Sapphire (Factory New)",
+         "image":"https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-KmsjnMqvBnmJD7fp8i_vD-Yn8klGwlB81NDG3OtSUJgY7YVvS-VfolLq7hsO5tZ_OnXo3uyhz7SyPnhGx0xoeb-dugKOACQLJ28w8Lgw",
+         "price":2310,
+         "nameColor":"D2D2D2",
+         "qualityColor":"EB4B4B",
+         "opskins": {
+           "name": "★ M9 Bayonet | Doppler (Factory New)",
+           "options": {
+             "phase": "ds"
+           }
+         }
+      }
+   ]
+}
